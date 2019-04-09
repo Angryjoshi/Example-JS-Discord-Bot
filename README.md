@@ -1,1 +1,2 @@
-Example-JS-Discord-Bot
+# Installation
+To install this bot, install node.js if you do not already have it, then clone this repository into a new **empty** folder. Once you have completed those two steps open a new Command Prompt (or terminal) window in the folder you cloned the repository to and then type ``npm i discord.js`` and let it install everything it needs. Once it finishes installing discord.js put your bot token in ``botConfig.js`` and type ``node bot`` in your Command Prompt (or terminal) to start the bot.
