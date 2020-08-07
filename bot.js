@@ -36,7 +36,7 @@ fs.readdir("./commands/", (err, files) => {
     if (message.author.bot) return;
 
     // Define prefix variable from the bot configuration
-    let prefix = botConfig.prefix;
+    let prefix = "?";
 
     // If the message does not start with the prefix do not continue executing code (the command)
     if(!message.content.startsWith(prefix)) return;
