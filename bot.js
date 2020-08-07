@@ -18,7 +18,7 @@ fs.readdir("./commands/", (err, files) => {
     // Cut off the  .js part of the command so you don't have to do -commandName.js
         let jsfile = files.filter(f => f.split(".").pop() === "js");
     
-    // Check if there is no commands, if so log that you cacn't find any commands
+    // Check if there is no commands, if so log that you can't find any commands
         if (jsfile.length <= 0) {
             console.log("Couldn't find commands.")
             return;
